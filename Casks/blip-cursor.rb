@@ -1,4 +1,4 @@
-cask "dominion525-blip" do
+cask "blip-cursor" do
   version "0.2.1"
   sha256 "fd07c6fd65ab39d6e9ce1cdc5120f23e8c0a76f8a2963968bbc3de2c4e4d63a3"
 
