@@ -12,6 +12,10 @@ cask "dominion525-blip" do
     strategy :github_latest
   end
 
+  # Blip updates itself through Sparkle, so its own updater can leave Homebrew's installation
+  # record older than the app on disk. This tells brew to read the installed bundle's version
+  # rather than that record, which keeps brew upgrade from walking the app backwards.
+  auto_updates true
   depends_on macos: :ventura
   depends_on arch: :arm64
 
