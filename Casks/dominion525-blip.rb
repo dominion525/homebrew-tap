@@ -1,6 +1,6 @@
 cask "dominion525-blip" do
-  version "0.1.1"
-  sha256 "58ac70a83a28ff616b24fb0a4f08c0e62512533cf91265356a0340338dc4b9d3"
+  version "0.2.0"
+  sha256 "87503665985fe036ef1b991013a92a6a1ee30ab156a9bcb19d85b3ac0f6bd14c"
 
   url "https://github.com/dominion525/blip/releases/download/v#{version}/Blip-#{version}.zip"
   name "Blip"
