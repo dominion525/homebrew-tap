@@ -1,6 +1,6 @@
 cask "blip-cursor" do
-  version "0.2.1"
-  sha256 "fd07c6fd65ab39d6e9ce1cdc5120f23e8c0a76f8a2963968bbc3de2c4e4d63a3"
+  version "0.3.0"
+  sha256 "e0ae9ab2b0d88cbe6789fcf7000229fb5d57cd639b337630211c22217fe92b53"
 
   url "https://github.com/dominion525/blip/releases/download/v#{version}/Blip-#{version}.zip"
   name "Blip"
