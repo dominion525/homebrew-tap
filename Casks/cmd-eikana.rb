@@ -16,8 +16,8 @@ cask "cmd-eikana" do
   # record older than the app on disk. This tells brew to read the installed bundle's version
   # rather than that record, which keeps brew upgrade from walking the app backwards.
   auto_updates true
-  depends_on macos: :monterey
   depends_on arch: :arm64
+  depends_on macos: :monterey
 
   app "⌘英かな.app"
 
