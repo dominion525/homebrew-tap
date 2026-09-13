@@ -16,8 +16,8 @@ cask "blip-cursor" do
   # record older than the app on disk. This tells brew to read the installed bundle's version
   # rather than that record, which keeps brew upgrade from walking the app backwards.
   auto_updates true
-  depends_on macos: :ventura
   depends_on arch: :arm64
+  depends_on macos: :ventura
 
   app "Blip.app"
 
