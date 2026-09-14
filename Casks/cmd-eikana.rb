@@ -1,6 +1,6 @@
 cask "cmd-eikana" do
-  version "2.5.1"
-  sha256 "e5ca70981e97bd5747fbd997be373976504116aacfdbd67cf844e9ec4e54403b"
+  version "2.5.2"
+  sha256 "985c271556dd383d17eaf7fa2e9e64f4a79f94d475c41219f69efa587f779b98"
 
   url "https://github.com/dominion525/cmd-eikana/releases/download/v#{version}/cmd-eikana-v#{version}-arm64.zip"
   name "⌘英かな"
