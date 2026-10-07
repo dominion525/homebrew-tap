@@ -17,7 +17,7 @@ cask "cmd-eikana" do
   # rather than that record, which keeps brew upgrade from walking the app backwards.
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: :monterey
+  depends_on macos: :ventura
 
   app "⌘英かな.app"
 
@@ -31,7 +31,7 @@ cask "cmd-eikana" do
     first launch; enable ⌘英かな under System Settings > Privacy & Security > Accessibility
     and > Input Monitoring.
 
-    Launch at login is registered through a helper inside the app, which brew cannot remove.
+    Launch at login is registered with macOS for the app itself, which brew cannot remove.
     Turn it off in the settings window, or under System Settings > General > Login Items,
     before uninstalling.
   CAVEATS
