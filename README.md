@@ -29,8 +29,8 @@ jetdb         Read Microsoft Access databases (.mdb/.accdb) from the command-lin
               https://github.com/dominion525/jetdb
 ```
 
-The formula installs the binaries built by the release of jetdb, for macOS (Apple silicon and
-Intel) and Linux (x86_64).
+The formula installs the binaries built by the release of jetdb, for macOS and Linux, on Apple
+silicon or arm64 and on Intel.
 
 ## Updating
 
