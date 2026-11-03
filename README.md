@@ -5,6 +5,7 @@ Homebrew casks for my macOS apps, and formulae for my command-line tools.
 ## Install
 
 ```
+brew install --cask dominion525/tap/atme
 brew install --cask dominion525/tap/blip-cursor
 brew install dominion525/tap/jetdb
 ```
@@ -15,6 +16,8 @@ Installing by the fully qualified name adds the tap and trusts only that cask or
 ## Casks
 
 ```
+atme          atme, a menu bar list and notifications of Slack mentions and DMs meant for you
+              https://github.com/dominion525/atme
 blip-cursor   Blip, a menu bar utility that highlights the mouse cursor
               https://github.com/dominion525/blip
 ```
