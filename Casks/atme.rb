@@ -1,6 +1,6 @@
 cask "atme" do
-  version "0.1.0"
-  sha256 "a77cff302f526f0a2fc1b07ce128d58c4580051326c7b8cbe3a38e91b669555d"
+  version "0.1.1"
+  sha256 "e80491128cf0ae6caf4c536b2ee89a96985a275fc08aa50ddad15017980ec200"
 
   url "https://github.com/dominion525/atme/releases/download/v#{version}/atme-#{version}.zip"
   name "atme"
